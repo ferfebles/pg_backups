@@ -11,7 +11,7 @@ The remaining options are included inside the script. You basically set the back
 With the default backup folder you probably need to run as root:
 ```
 mkdir -p /var/backups/postgres_"$HOSTNAME"/pg_backups/
-chown /var/backups/postgres_"$HOSTNAME"/pg_backups/
+chown postgres:postgres /var/backups/postgres_"$HOSTNAME"/pg_backups/
 ```
 
 And then try to run the script as 'postgres' user:
