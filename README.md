@@ -22,7 +22,7 @@ chmod +x pg_backups.sh
 ./pg_backups.sh
 ```
 
-You usually program the script to run every day:
+To program the script to run every day, you can edit /etc/crontab __as root__: 
 ```
 nano /etc/crontab
 
