@@ -18,6 +18,7 @@ And then try to run the script as 'postgres' user:
 ```
 su - postgres
 wget https://github.com/ferfebles/pg_backups/raw/refs/heads/main/pg_backups.sh
+chmod +x pg_backups.sh
 ./pg_backups.sh
 ```
 
